@@ -5,18 +5,21 @@ import { ProductsComponent } from './products/products.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { UiModule } from './ui/ui.module';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
+import { NavbarComponent } from './ui/navbar/navbar.component';
+import { FooterComponent } from './ui/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    UiModule,
     AppRoutingModule
   ],
   providers: [],
