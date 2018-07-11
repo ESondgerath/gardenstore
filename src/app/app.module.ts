@@ -8,7 +8,6 @@ import { UiModule } from './ui/ui.module';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './ui/navbar/navbar.component';
 import { FooterComponent } from './ui/footer/footer.component';
-import { LayoutComponent } from './ui/layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +16,10 @@ import { LayoutComponent } from './ui/layout/layout.component';
     AboutComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent,
-    LayoutComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    UiModule,
     AppRoutingModule
   ],
   providers: [],
