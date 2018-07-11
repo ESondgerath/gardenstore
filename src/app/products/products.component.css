@@ -1,15 +1,15 @@
-section.saleBox {
+div.saleBox {
 	background-color: rgba(225,225,255,0.2);
-	margin: 0 0 2.0em 30.0em;
-	padding: 1.5em 0 2.0em 1.5em;
+	/* margin: 0 0 2.0em 30.0em; */
+	/* padding: 1.5em 0 2.0em 1.5em; */
 	/* display: inline-block; */
 	border-radius: 1em;
 	border: rgba(225,225,225,0.1) solid 5px
 }
 
-section div.panel {
-	/* float: left;
-	position: relative; */
+div div.panel {
+	float: left;
+	position: relative;
 	width: 400px;
 	margin: 0 0.5em 2.0em 2.25em;
 	padding: 1.0em;
@@ -19,10 +19,10 @@ section div.panel {
     box-shadow: 2px 2px 2px 0px black;
 }
 
-section div.panel:hover {
+div div.panel:hover {
 	box-shadow: 2px 2px 2px 0px inset;
 }
 
-section div.panel img.berryBox {
+div div.panel img.berryBox {
 	width: 100%;
 }
