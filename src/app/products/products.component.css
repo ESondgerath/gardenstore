@@ -1,10 +1,12 @@
 div.saleBox {
-	background-color: rgba(225,225,255,0.2);
+	background-color: rgba(0,0,0,0.2);
 	/* margin: 0 0 2.0em 30.0em; */
 	/* padding: 1.5em 0 2.0em 1.5em; */
 	/* display: inline-block; */
 	border-radius: 1em;
-	border: rgba(225,225,225,0.1) solid 5px
+    border: rgba(0,0,0,0.1) solid 5px;
+    align-items: center;
+    margin-bottom: 6em;
 }
 
 div div.panel {
@@ -13,7 +15,7 @@ div div.panel {
 	width: 400px;
 	margin: 0 0.5em 2.0em 2.25em;
 	padding: 1.0em;
-	background-color: rgba(225,225,225,0.1);
+	background-color: rgba(0,0,0,0.25);
 	border: rgba(0, 0, 0, 0.5) solid 2px;
     border-radius: 0.6em;
     box-shadow: 2px 2px 2px 0px black;
@@ -25,4 +27,8 @@ div div.panel:hover {
 
 div div.panel img.berryBox {
 	width: 100%;
+}
+
+div.row {
+    margin-left: 5em;
 }

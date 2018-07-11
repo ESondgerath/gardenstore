@@ -1,4 +1,22 @@
 #jumbotronPic{
     width: 100%;
     /* centers jumbotron */
+    border-radius: 1em;
+    border: rgba(0,0,0,0.1) solid 5px;
 } 
+
+.jumbotron {
+    width: 100%;
+    border-radius: 2.5em;
+    border: rgba(0,0,0,0.2) solid 10px;
+}
+
+.container {
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+.bottomDiv {
+    margin-bottom: 6em;
+}
