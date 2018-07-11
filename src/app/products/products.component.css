@@ -2,14 +2,14 @@ section.saleBox {
 	background-color: rgba(225,225,255,0.2);
 	margin: 0 0 2.0em 30.0em;
 	padding: 1.5em 0 2.0em 1.5em;
-	display: inline-block;
+	/* display: inline-block; */
 	border-radius: 1em;
 	border: rgba(225,225,225,0.1) solid 5px
 }
 
 section div.panel {
-	float: left;
-	position: relative;
+	/* float: left;
+	position: relative; */
 	width: 400px;
 	margin: 0 0.5em 2.0em 2.25em;
 	padding: 1.0em;
